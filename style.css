@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #ccc;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+
+ul {
+    list-style: none;
+    display: flex;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+
+textarea {
+    width: 400px;
+    height: 100px;
+    border: none;
+    background: black;
+    color: #ccc;
+    font-size: 20px;
+    box-shadow: 0px 0px 10px 10px #e07474;
+    padding: 5px;
+}
+
+.info {
+    position: absolute;
+}
+
+.category {
+    margin-top: 200px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.category div {
+    margin: 0 10px;
+}
+
+
+input[type='radio'] {
+    accent-color: #232323;
+    width: 20px;
+    height: 3em;
+}
+
+.art {}
+
+.geography {}
+
+.film {}
+
+.general {}
+
+.generateBtn {
+    margin-top: 10px;
+    border: none;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-style: italic;
+    text-transform: capitalize;
+    padding: 5px;
+    border-radius: 5px;
+    background: #000;
+    color: red;
+}
+
+.generateBtn:hover {
+    cursor: pointer;
+    scale: 1.1;
+}

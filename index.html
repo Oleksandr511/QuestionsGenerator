@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Questions Generator</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div id="question" class="question">
+            <textarea name="" id="textarea" cols="30" rows="10">generate some question</textarea>
+        </div>
+        <div id="info" class="info"></div>
+        <div class="category">
+            <ul>
+                <div>
+                    <li>Art</li>
+                    <input class="art" type="radio" name="radioinp">
+                </div>
+                <div>
+                    <li>Geography</li>
+                    <input class="geography" type="radio" name="radioinp">
+                </div>
+                <div>
+                    <li>Film</li>
+                    <input class="film" type="radio" name="radioinp">
+                </div>
+                <div>
+                    <li>General</li>
+                    <input class="general" type="radio" name="radioinp">
+                </div>
+            </ul>
+
+        </div>
+        <button class="generateBtn" onclick="processChange()">generate</button>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
